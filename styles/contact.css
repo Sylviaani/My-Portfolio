@@ -57,11 +57,10 @@
   margin-top: 20px;
 }
 
-.social-links a {
-  margin: 0 10px;
-  color: #0073e6;
-  font-size: 1.5em;
-  text-decoration: none;
+.social-links img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .social-links a:hover {
