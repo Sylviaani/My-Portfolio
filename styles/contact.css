@@ -63,8 +63,8 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.social-links a:hover {
-  color: #005bb5;
+.social-links img:hover {
+  transform: scale(1.1);
 }
 
 .footer {
