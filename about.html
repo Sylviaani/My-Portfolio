@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>About Me</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/about.css" />
@@ -22,34 +22,55 @@
     <div class="nav-underline"></div>
 
     <section class="about-container">
-      <div class="about-content">
-        <h1>About Me</h1>
-
-        <h2>Sylvia Ani</h2>
-        <p>
-          Full-Stack Software Engineer | Passionate about Building Scalable Web
-          Applications.
-        </p>
-        <p>
-          Experienced in front-end and back-end technologies, with a focus on
-          creating efficient, user-friendly web solutions.
-        </p>
+      <div class="about-header">
+        <div class="about-text">
+          <h1>Sylvia Ani</h1>
+          <p class="subtitle">
+            Full-Stack Software Engineer | Passionate about Building Scalable
+            Web Applications.
+            <p>
+              Experienced in front-end and back-end technologies, with a focus on
+              creating efficient, 
+              <br>
+              user-friendly web solutions.
+            </p>
+          </p>
+          <p class="location">📍 Lagos, Nigeria.</p>
+        </div>
         <div class="about-image">
           <img src="images/profile1.jpg" alt="Your Name" />
         </div>
+      </div>
 
-        <h3>Work Experience</h3>
-        <div class="experience">
-          <h4>Job Title - Company Name</h4>
-          <p>Duration: YYYY - Present</p>
-          <p>Key Responsibilities and Achievements.</p>
+      <div class="about-details">
+        <h2>📚 Work Experience</h2>
+        <div class="resume-item">
+          <h3>Technical Lead – Infamy Fantasy Esports</h3>
+          <p>2023 – Present</p>
+          <ul>
+            <li>
+              Led development of tournament site, simplifying team creation and
+              sign-ups.
+            </li>
+            <li>Spearheaded product and frontend/backend implementations.</li>
+          </ul>
         </div>
-        <div class="experience">
-          <h4>Previous Job Title - Previous Company</h4>
-          <p>Duration: YYYY - YYYY</p>
-          <p>Key Responsibilities and Achievements.</p>
+        <div class="resume-item">
+          <h3>Software Engineer – XYZ Tech</h3>
+          <p>2021 – 2023</p>
+          <ul>
+            <li>Built full-stack systems with React, Node.js, and MongoDB.</li>
+            <li>Enhanced app performance by 30% via code optimization.</li>
+          </ul>
         </div>
-        <h3>Skills</h3>
+
+        <h2>🎓 Education</h2>
+        <div class="resume-item">
+          <h3>B.Sc. in Computer Science</h3>
+          <p>Your University • 2016 – 2020</p>
+        </div>
+
+        <h2>💡 Skills</h2>
         <div class="skills">
           <span>JavaScript</span>
           <span>React</span>
@@ -59,7 +80,9 @@
           <span>MySQL</span>
           <span>MongoDB</span>
         </div>
-        <h3>Contact</h3>
+
+        <h2>Contact</h2>
+        <div class="resume-item">
         <p>
           Email:
           <a href="mailto:sylviaani26@gmail.com">sylviaani26@gmail.com</a>
@@ -76,11 +99,13 @@
             >https://www.github.com/Sylviaani</a
           >
         </p>
+        </div>
       </div>
+    </section>
     </section>
 
     <footer>
-      <p>&copy; 2025 Sylvia Ani. All rights reserved.</p>
+      <p>&copy; 2025 Sylvia Ani. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
