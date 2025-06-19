@@ -24,8 +24,13 @@
 
 .subtitle {
   font-size: 1.2rem;
-  color: #555;
+  color: white;
   margin-bottom: 5px;
+}
+
+.sub {
+  color: #888;
+  font-size: 1.1rem;
 }
 
 .location {
@@ -64,13 +69,14 @@
 .resume-item h3 {
   font-size: 1.5rem;
   margin-bottom: 5px;
-  color: #333;
+  color: #777;
 }
 
 .resume-item p {
   font-size: 1rem;
   color: #666;
-  margin-bottom: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .resume-item ul {
@@ -81,8 +87,8 @@
 
 .resume-item ul li {
   margin-bottom: 6px;
-  font-size: 0.9rem;
-  color: #444;
+  font-size: 16px;
+  color: #555;
 }
 
 /* Skills List */
