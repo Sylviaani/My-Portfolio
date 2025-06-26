@@ -56,7 +56,7 @@
 
 .project-card p {
   font-size: 1em;
-  color: whitesmoke;
+  color: #777;
   margin-bottom: 15px;
 }
 
@@ -74,10 +74,9 @@
 .footer {
   margin-top: 50px;
   padding: 20px;
-  background: #f1f1f1;
   text-align: center;
-  font-size: 1em;
-  color: #333;
+  color: #777;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 600px) {

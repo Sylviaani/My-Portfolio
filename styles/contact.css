@@ -3,8 +3,7 @@
   max-width: 600px;
   max-height: 500px;
   margin: 20px auto 0px;
-  padding: 100px;
-
+  padding: 80px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
@@ -25,12 +24,10 @@
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   background-color: #222;
-
-  border: 1px solid #333;
+  border: 0.1px solid #777;
   border-radius: 5px;
   font-size: 1em;
 }
@@ -54,7 +51,7 @@
 }
 
 .social-links {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .social-links img {
@@ -68,9 +65,9 @@
 }
 
 .footer {
-  margin-top: 5px;
+  margin-top: 50px;
   padding: 20px;
   text-align: center;
-  font-size: 1em;
-  color: #fff;
+  color: #777;
+  font-size: 0.9rem;
 }
